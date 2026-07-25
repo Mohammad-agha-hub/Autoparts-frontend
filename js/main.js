@@ -87,11 +87,27 @@ function renderHero() {
   const dots = document.getElementById("heroDots");
   if (!bg || typeof HERO_SLIDES === "undefined") return;
 
-  // Background layers (one per slide, crossfaded via .is-active)
+  // Background layers (one per slide, crossfaded via .is-active).
+  // The first one starts inactive and is switched on once its photo has
+  // decoded, so it fades + Ken-Burns in on load instead of popping in
+  // whenever the scripts happen to finish downloading.
   bg.innerHTML = HERO_SLIDES.map(
-    (s, i) =>
-      `<div class="hero-bg-slide${i === 0 ? " is-active" : ""}" style="background-image:url('${s.img}')"></div>`,
+    (s) =>
+      `<div class="hero-bg-slide" style="background-image:url('${s.img}')"></div>`,
   ).join("");
+
+  const first = bg.firstElementChild;
+  if (first) {
+    const activate = () => first.classList.add("is-active");
+    const img = new Image();
+    img.onload = activate;
+    img.onerror = activate;
+    img.src = HERO_SLIDES[0].img;
+    // Cached images can resolve before the handler is attached, and a slow
+    // photo should never hold the hero back for long.
+    if (img.complete) activate();
+    else setTimeout(activate, 1200);
+  }
 
   // Navigation dots
   if (dots) {
@@ -105,7 +121,9 @@ function renderHero() {
   applyHeroSlide(0, true);
 }
 
-function applyHeroSlide(index, skipAnim) {
+// `initial` = first paint: the copy keeps its CSS load-in animation and the
+// background is left to renderHero(), which fades slide 0 in on image load.
+function applyHeroSlide(index, initial) {
   const slide = HERO_SLIDES[index];
   if (!slide) return;
 
@@ -119,7 +137,7 @@ function applyHeroSlide(index, skipAnim) {
   if (lead) lead.textContent = slide.lead;
 
   // Re-trigger the text entrance animation
-  if (!skipAnim) {
+  if (!initial) {
     [kicker, title, lead].forEach((el) => {
       if (!el) return;
       el.classList.remove("hero-anim");
@@ -129,9 +147,11 @@ function applyHeroSlide(index, skipAnim) {
   }
 
   // Crossfade backgrounds + update dots
-  document.querySelectorAll(".hero-bg-slide").forEach((el, i) => {
-    el.classList.toggle("is-active", i === index);
-  });
+  if (!initial) {
+    document.querySelectorAll(".hero-bg-slide").forEach((el, i) => {
+      el.classList.toggle("is-active", i === index);
+    });
+  }
   document.querySelectorAll("[data-hero-dot]").forEach((el, i) => {
     el.classList.toggle("active", i === index);
   });

@@ -804,6 +804,42 @@
     background-size:100% 100%, 4px 4px;
     opacity:.5;mix-blend-mode:overlay;
   }
+  /* ===== HERO LOAD-IN =====
+     Staggered entrance that plays once on page load. Pure CSS so it starts
+     with the first paint (no JS/GSAP dependency, no flash of unstyled copy).
+     `backwards` fill only holds the *start* frame during the delay — once a
+     step finishes the element returns to its normal styles, so hover
+     transforms on the CTAs and the GSAP parallax on .hero-copy still work.
+     Declared BEFORE .hero-anim so the slider's re-entrance wins on ties. */
+  @keyframes heroLoadRise{from{opacity:0;transform:translateY(26px);}to{opacity:1;transform:none;}}
+  @keyframes heroLoadRiseSm{from{opacity:0;transform:translateY(14px);}to{opacity:1;transform:none;}}
+  @keyframes heroLoadCard{from{opacity:0;transform:translateY(34px) scale(.965);}to{opacity:1;transform:none;}}
+  @keyframes heroLoadFade{from{opacity:0;}to{opacity:1;}}
+  @keyframes heroLoadDots{from{opacity:0;transform:translateX(-14px);}to{opacity:1;transform:none;}}
+
+  /* The first background slide fades itself in (main.js activates it once the
+     photo has loaded), so the container is not animated on a timer here. */
+  .hero-grain{animation:heroLoadFade 1.2s ease .45s backwards;}
+
+  [data-hero-kicker]{animation:heroLoadRiseSm .7s cubic-bezier(.2,.7,.2,1) .22s backwards;}
+  [data-hero-title]{animation:heroLoadRise .85s cubic-bezier(.2,.7,.2,1) .32s backwards;}
+  [data-hero-lead]{animation:heroLoadRise .85s cubic-bezier(.2,.7,.2,1) .44s backwards;}
+  .hero-ctas{animation:heroLoadRise .8s cubic-bezier(.2,.7,.2,1) .56s backwards;}
+  .hero-stats > div{animation:heroLoadRiseSm .7s cubic-bezier(.2,.7,.2,1) backwards;}
+  .hero-stats > div:nth-child(1){animation-delay:.66s;}
+  .hero-stats > div:nth-child(2){animation-delay:.74s;}
+  .hero-stats > div:nth-child(3){animation-delay:.82s;}
+  .hero-stats > div:nth-child(4){animation-delay:.90s;}
+  /* Dots are injected by main.js, so the entrance lives on the buttons —
+     it then plays when they actually appear, whatever the network did. */
+  .hero-dots button{animation:heroLoadDots .55s cubic-bezier(.2,.7,.2,1) backwards;}
+  .hero-dots button:nth-child(1){animation-delay:.1s;}
+  .hero-dots button:nth-child(2){animation-delay:.18s;}
+  .hero-dots button:nth-child(3){animation-delay:.26s;}
+  .hero-dots button:nth-child(4){animation-delay:.34s;}
+  .hero-dots button:nth-child(n+5){animation-delay:.42s;}
+  .hero .yard-tag{animation:heroLoadCard .9s cubic-bezier(.2,.7,.2,1) .5s backwards;}
+
   .hero-copy [data-hero-kicker],
   .hero-copy h1,
   .hero-copy p.lead{transition:none;}
@@ -852,6 +888,14 @@
     body{opacity:1;animation:none;}
     .hero-bg-slide.is-active{animation:none;}
     .hero-anim{animation:none;}
+    .hero-grain,
+    [data-hero-kicker],
+    [data-hero-title],
+    [data-hero-lead],
+    .hero-ctas,
+    .hero-stats > div,
+    .hero-dots button,
+    .hero .yard-tag{animation:none;opacity:1;transform:none;}
     .reveal{opacity:1;transform:none;transition:none;}
     .inv-card{animation:none;}
   }
