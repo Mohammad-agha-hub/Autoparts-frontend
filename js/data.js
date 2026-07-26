@@ -52,7 +52,7 @@ const SERVICES = [
     code: "SVC-03",
     img: "Dacia_Logan_MCV_Model_2009_05.webp",
     title: "Doors",
-    desc: "OEM body parts.",
+    desc: "OEM body part.",
   },
   {
     code: "SVC-04",
@@ -261,6 +261,7 @@ const INVENTORY = [
     price: "$120",
     stock: "Stock #4489-IC",
   },
+  
 ];
 
 // ---- Brands strip ----
