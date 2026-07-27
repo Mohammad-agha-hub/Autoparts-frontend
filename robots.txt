@@ -1,5 +1,5 @@
 # robots.txt — AFJ Auto Parts & Wreckers
-# https://afjautoparts.com.au/
+# https://www.afjautoparts.com.au/
 
 User-agent: *
 Allow: /
@@ -12,4 +12,4 @@ Disallow: /js/config.js
 Disallow: /404.html
 Disallow: /500.html
 
-Sitemap: https://afjautoparts.com.au/sitemap.xml
+Sitemap: https://www.afjautoparts.com.au/sitemap.xml
