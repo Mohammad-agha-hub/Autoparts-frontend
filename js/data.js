@@ -13,7 +13,7 @@ const HERO_SLIDES = [
     kicker: "Used · New · Aftermarket",
     titleTop: "AFJ",
     titleMain: "AUTO PARTS",
-    titleEm: "& WRECKERS.",
+    titleEm: "& WRECKER.",
     lead: "Over 40,000 quality-checked used, new and aftermarket parts pulled from our own yard. Same-day pickup, nationwide shipping and a real warranty on every part.",
   },
   {
@@ -56,7 +56,7 @@ const SERVICES = [
   },
   {
     code: "SVC-04",
-    img: "logo-removebg-preview.webp",
+    img: "carr.jpg",
     title: "Headlights",
     desc: "Original headlights.",
   },
@@ -68,7 +68,7 @@ const SERVICES = [
   },
   {
     code: "SVC-06",
-    img: "kisspng-kia-motors-car-kia-sportage-sport-utility-vehicle-1713921370625.webp",
+    img: "mirror.webp",
     title: "Mirrors",
     desc: "Electric mirrors.",
   },
@@ -327,7 +327,7 @@ const FAQS = [
 
 // ---- Business / contact info (used for the map + WhatsApp + footer) ----
 const BUSINESS = {
-  name: "AFJ Auto Parts & Wreckers",
+  name: "AFJ Auto Parts & Wrecker",
   phoneDisplay: "0435 796 957",
   phoneTel: "+61435796957", // used for tel: links
   whatsappNumber: "61435796957", // no leading 0, no plus, used for wa.me links
