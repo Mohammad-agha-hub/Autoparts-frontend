@@ -1,0 +1,15 @@
+# robots.txt — AFJ Auto Parts & Wreckers
+# https://afjautoparts.com.au/
+
+User-agent: *
+Allow: /
+
+# Nothing to crawl in the build tooling or the generated config
+Disallow: /scripts/
+Disallow: /js/config.js
+
+# Error pages are noindex'd in their markup too
+Disallow: /404.html
+Disallow: /500.html
+
+Sitemap: https://afjautoparts.com.au/sitemap.xml
