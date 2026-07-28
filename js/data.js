@@ -124,6 +124,16 @@ const INVENTORY = [
   {
     cat: "engine",
     condition: "",
+    img: "111.png",
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKING 2014 kia cerato auto ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    price: "",
+    stock: "code #4SS",
+  },
+  {
+    cat: "engine",
+    condition: "",
     img: "1.png",
     catLabel: "ALL BODY PARTS",
     title: "NOW WRECKING 2021 SUZUKI",
