@@ -121,6 +121,17 @@ const SERVICES = [
 
 // ---- Live inventory cards ----
 const INVENTORY = [
+
+   {
+    cat: "engine",
+    condition: "",
+    img: "new.jpeg",
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKING 2011 volkswagen amarok 4x4 ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    price: "",
+    stock: "code #N/A",
+  },
   {
     cat: "engine",
     condition: "",
