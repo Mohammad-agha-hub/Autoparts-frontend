@@ -121,6 +121,16 @@ const SERVICES = [
 
 // ---- Live inventory cards ----
 const INVENTORY = [
+    {
+    cat: "engine",
+    condition: "",
+    img: "new1.jpeg",
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKing 2015 MAZDA CX-5 ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    price: "",
+    stock: "code #34K",
+  },
 
    {
     cat: "engine",
