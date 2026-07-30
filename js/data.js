@@ -429,7 +429,7 @@ const BUSINESS = {
     "Brisbane, QLD, Australia · Sunshine Coast, QLD, Australia · Gold Coast, QLD, Australia",
   areaServed: ["Brisbane", "Sunshine Coast", "Gold Coast"],
   hours: [
-    { day: "Monday – Friday", time: "7:00 am – 4:00 pm" },
+    { day: "Monday – Friday", time: "7:00 am – 4:30 pm" },
     { day: "Saturday", time: "7:00 am – 1:00 pm" },
     { day: "Sunday", time: "Closed" },
   ],
