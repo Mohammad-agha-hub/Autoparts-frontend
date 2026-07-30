@@ -121,6 +121,18 @@ const SERVICES = [
 
 // ---- Live inventory cards ----
 const INVENTORY = [
+     {
+    cat: "body",
+    condition: "",
+    img: "new190.jpeg",
+    id: 1,
+    photos: ["new190.jpeg", "new191.jpeg", "new192.jpeg", "new193.jpeg","new194.jpeg", "new195.jpeg", "new196.jpeg", "new197.jpeg","new198.jpeg","new199.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKing 2023 mg hs ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    price: "",
+    stock: "code #N/A",
+  },
     {
     cat: "engine",
     condition: "",
