@@ -146,6 +146,33 @@ const INVENTORY = [
     price: "",
     stock: "paint code #040",
   },
+
+   {
+    cat: "body",
+    condition: "",
+    img: "new210.jpeg",
+    id: 22,
+    photos: ["new210.jpeg", "new211.jpeg", "new212.jpeg", "new213.jpeg","new214.jpeg", "new215.jpeg", "new216.jpeg", "new217.jpeg","new218.jpeg","new219.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKing 2013 KIA rio ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    price: "",
+    stock: "paint code #N/A",
+  },
+
+ {
+    cat: "body",
+    condition: "",
+    img: "new230.jpeg",
+    id: 24,
+    photos: ["new230.jpeg", "new231.jpeg", "new232.jpeg", "new233.jpeg","new234.jpeg", "new235.jpeg", "new236.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKing 2015 subaru xv gp7 awd auto ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    price: "",
+    stock: "paint code #J9U",
+  },
+
  
 
 
@@ -161,6 +188,46 @@ const INVENTORY = [
     price: "",
     stock: "code #34K",
   },
+    {
+    cat: "body",
+    condition: "",
+    img: "new240.jpeg",
+    id: 25,
+    photos: ["new240.jpeg", "new241.jpeg", "new242.jpeg", "new243.jpeg","new244.jpeg", "new245.jpeg", "new246.jpeg", "new247.jpeg","new248.jpeg","new249.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "now wrecking 2018 hyundai accent ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    price: "",
+    stock: " Paint code #P6W",
+  },
+
+     {
+    cat: "engine",
+    condition: "",
+    img: "new260.jpeg",
+    id: 26,
+    photos: ["new260.jpeg", "new261.jpeg", "new262.jpeg", "new263.jpeg","new264.jpeg", "new265.jpeg", "new266.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKING 2010 honda accord euro",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    price: "",
+    stock: "Paint code #N/A",
+  },
+
+     {
+    cat: "engine",
+    condition: "",
+    img: "new270.jpeg",
+    id: 27,
+    photos: ["new270.jpeg", "new271.jpeg", "new272.jpeg", "new273.jpeg","new274.jpeg", "new275.jpeg", "new276.jpeg","new277.jpeg", "new278.jpeg", "new279.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKING 2013 hyundai i  20 auto",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    price: "",
+    stock: "Paint code #WAU",
+  },
+
+
 
   {
     cat: "engine",
@@ -174,19 +241,32 @@ const INVENTORY = [
     price: "",
     stock: "code #N/A",
   },
+   {
+    cat: "body",
+    condition: "",
+    img: "new220.jpeg",
+    id: 23,
+    photos: ["new220.jpeg", "new221.jpeg", "new222.jpeg", "new223.jpeg","new224.jpeg", "new225.jpeg", "new226.jpeg", "new227.jpeg","new228.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKing 2014 hyundai i   30 ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    price: "",
+    stock: "paint code #YAC",
+  },
 
-  //  {
-  //   cat: "engine",
-  //   condition: "",
-  //   img: "new.jpeg",
-  //   id: 3,
-  //   photos: ["new.jpeg", "new.jpeg", "new.jpeg", "new.jpeg"], // TODO: replace with real front/rear/side/interior photos
-  //   catLabel: "ALL BODY PARTS",
-  //   title: "NOW WRECKING 2011 volkswagen amarok 4x4 ",
-  //   fits: "Most Part Still Available we ship parts all over Australia",
-  //   price: "",
-  //   stock: "code #N/A",
-  // },
+
+   {
+    cat: "engine",
+    condition: "",
+    img: "new250.jpeg",
+    id: 26,
+    photos: ["new250.jpeg", "new251.jpeg", "new252.jpeg", "new253.jpeg","new254.jpeg", "new255.jpeg", "new256.jpeg", "new257.jpeg","new258.jpeg", "new259.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKING 2015 suzuki apv auto ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    price: "",
+    stock: " Paint code #ZMT",
+  },
   {
     cat: "engine",
     condition: "",
@@ -242,10 +322,10 @@ const INVENTORY = [
     id: 7,
     photos: ["new70.jpeg", "new71.jpeg", "new72.jpeg", "new73.jpeg", "new74.jpeg", "new75.jpeg", "new76.jpeg","new77.jpeg","new78.jpeg",], // TODO: replace with real front/rear/side/interior photos
     catLabel: "ALL BODY PARTS",
-    title: "Now wrecking 2011 mazda3 hatchback auto",
+    title: "Now wrecking 2012 hyundia accent",
     fits: "Most Part Still Available we ship parts all over Australia",
     price: "",
-    stock: "Code #16W",
+    stock: "Code #ve9",
   },
   {
     cat: "interior",
