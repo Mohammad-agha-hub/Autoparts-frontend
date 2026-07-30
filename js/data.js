@@ -121,11 +121,11 @@ const SERVICES = [
 
 // ---- Live inventory cards ----
 const INVENTORY = [
-     {
-    cat: "body",
+    {
+    cat: "engine",
     condition: "",
     img: "new190.jpeg",
-    id: 1,
+    id: 20,
     photos: ["new190.jpeg", "new191.jpeg", "new192.jpeg", "new193.jpeg","new194.jpeg", "new195.jpeg", "new196.jpeg", "new197.jpeg","new198.jpeg","new199.jpeg"], // TODO: replace with real front/rear/side/interior photos
     catLabel: "ALL BODY PARTS",
     title: "NOW WRECKing 2023 mg hs ",
@@ -133,6 +133,22 @@ const INVENTORY = [
     price: "",
     stock: "code #N/A",
   },
+ 
+    {
+    cat: "engine",
+    condition: "",
+    img: "new200.jpeg",
+    id: 21,
+    photos: ["new200.jpeg", "new201.jpeg", "new202.jpeg", "new203.jpeg","new204.jpeg", "new205.jpeg", "new206.jpeg", "new207.jpeg","new208.jpeg",], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKing 2008 toyota corolla zre152r ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    price: "",
+    stock: "paint code #040",
+  },
+ 
+
+
     {
     cat: "engine",
     condition: "",
@@ -339,19 +355,7 @@ const INVENTORY = [
     price: "",
     stock: "Code #N/A",
   },
-  {
-    cat: "electrical",
-    condition: "",
-    img: "14.png",
-    id: 17,
-    photos: ["14.png", "14.png", "14.png", "14.png"], // TODO: replace with real front/rear/side/interior photos
-    catLabel: "Electrical · Cluster",
-    title: "wrecking 2015 volkswagen polo tsi",
-    fits: "Most Part Still Available we ship parts all over Australia",
-    price: "",
-    stock: "Code #N/A",
-  },
-
+ 
   //  {
   //   cat: "electrical",
   //   condition: "",
