@@ -162,27 +162,27 @@ const INVENTORY = [
   {
     cat: "engine",
     condition: "",
-    img: "111.png",
+    img: "new24.jpeg",
     id: 4,
-    photos: ["111.png", "111.png", "111.png", "111.png"], // TODO: replace with real front/rear/side/interior photos
+    photos: ["new24.jpeg", "new25.jpeg", "new26.jpeg", "new27.jpeg","new28.jpeg", "new29.jpeg", "new30.jpeg", "new31.jpeg","new32.jpeg",], // TODO: replace with real front/rear/side/interior photos
     catLabel: "ALL BODY PARTS",
     title: "NOW WRECKING 2014 kia cerato auto ",
     fits: "Most Part Still Available we ship parts all over Australia",
     price: "",
     stock: "code #4SS",
   },
-  {
-    cat: "body",
-    condition: "",
-    img: "2.png",
-    id: 5,
-    photos: ["2.png", "2.png", "2.png", "2.png"], // TODO: replace with real front/rear/side/interior photos
-    catLabel: "ALL BODY PARTS",
-    title: "NOW WRECKING 2011 TOYOTA PRADO 150 Series 4X4",
-    fits: "Most Part Still Available we ship parts all over Australia",
-    price: "",
-    stock: "code #040",
-  },
+  // {
+  //   cat: "body",
+  //   condition: "",
+  //   img: "",
+  //   id: 5,
+  //   photos: [], // TODO: replace with real front/rear/side/interior photos
+  //   catLabel: "ALL BODY PARTS",
+  //   title: "NOW WRECKING 2011 TOYOTA PRADO 150 Series 4X4",
+  //   fits: "Most Part Still Available we ship parts all over Australia",
+  //   price: "",
+  //   stock: "code #040",
+  // },
   {
     cat: "electrical",
     condition: "",
