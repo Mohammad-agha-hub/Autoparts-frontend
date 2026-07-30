@@ -124,9 +124,9 @@ const INVENTORY = [
     {
     cat: "engine",
     condition: "",
-    img: "new1.jpeg",
+    img: "new1 (2).jpeg",
     id: 1,
-    photos: ["new1.jpeg", "new1.jpeg", "new1.jpeg", "new1.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    photos: ["new1.jpeg", "new2.jpeg", "new3.jpeg", "new4.jpeg","new5.jpeg", "new6.jpeg", "new7.jpeg", "new8.jpeg","new9.jpeg","new10.jpeg"], // TODO: replace with real front/rear/side/interior photos
     catLabel: "ALL BODY PARTS",
     title: "NOW WRECKing 2015 MAZDA CX-5 ",
     fits: "Most Part Still Available we ship parts all over Australia",
@@ -137,14 +137,14 @@ const INVENTORY = [
   {
     cat: "engine",
     condition: "",
-    img: "1.png",
+    img: "new11.jpeg",
     id: 2,
-    photos: ["1.png", "1.png", "1.png", "1.png"], // TODO: replace with real front/rear/side/interior photos
+    photos: ["new12.jpeg", "new13.jpeg", "new14.jpeg", "new15.jpeg","new16.jpeg", "new17.jpeg", "new18.jpeg", "new19.jpeg","new20.jpeg","new.jpeg","new21.jpeg","new22.jpeg","new23.jpeg"], // TODO: replace with real front/rear/side/interior photos
     catLabel: "ALL BODY PARTS",
-    title: "NOW WRECKING 2021 SUZUKI",
+    title: "NOW WRECKING 2011 volkswagen amarok 4x4",
     fits: "Most Part Still Available we ship parts all over Australia",
     price: "",
-    stock: "code #26U",
+    stock: "code #N/A",
   },
 
    {
