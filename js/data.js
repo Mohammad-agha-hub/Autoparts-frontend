@@ -147,18 +147,18 @@ const INVENTORY = [
     stock: "code #N/A",
   },
 
-   {
-    cat: "engine",
-    condition: "",
-    img: "new.jpeg",
-    id: 3,
-    photos: ["new.jpeg", "new.jpeg", "new.jpeg", "new.jpeg"], // TODO: replace with real front/rear/side/interior photos
-    catLabel: "ALL BODY PARTS",
-    title: "NOW WRECKING 2011 volkswagen amarok 4x4 ",
-    fits: "Most Part Still Available we ship parts all over Australia",
-    price: "",
-    stock: "code #N/A",
-  },
+  //  {
+  //   cat: "engine",
+  //   condition: "",
+  //   img: "new.jpeg",
+  //   id: 3,
+  //   photos: ["new.jpeg", "new.jpeg", "new.jpeg", "new.jpeg"], // TODO: replace with real front/rear/side/interior photos
+  //   catLabel: "ALL BODY PARTS",
+  //   title: "NOW WRECKING 2011 volkswagen amarok 4x4 ",
+  //   fits: "Most Part Still Available we ship parts all over Australia",
+  //   price: "",
+  //   stock: "code #N/A",
+  // },
   {
     cat: "engine",
     condition: "",
