@@ -125,6 +125,8 @@ const INVENTORY = [
     cat: "engine",
     condition: "",
     img: "new1.jpeg",
+    id: 1,
+    photos: ["new1.jpeg", "new1.jpeg", "new1.jpeg", "new1.jpeg"], // TODO: replace with real front/rear/side/interior photos
     catLabel: "ALL BODY PARTS",
     title: "NOW WRECKing 2015 MAZDA CX-5 ",
     fits: "Most Part Still Available we ship parts all over Australia",
@@ -132,10 +134,25 @@ const INVENTORY = [
     stock: "code #34K",
   },
 
+  {
+    cat: "engine",
+    condition: "",
+    img: "1.png",
+    id: 2,
+    photos: ["1.png", "1.png", "1.png", "1.png"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKING 2021 SUZUKI",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    price: "",
+    stock: "code #26U",
+  },
+
    {
     cat: "engine",
     condition: "",
     img: "new.jpeg",
+    id: 3,
+    photos: ["new.jpeg", "new.jpeg", "new.jpeg", "new.jpeg"], // TODO: replace with real front/rear/side/interior photos
     catLabel: "ALL BODY PARTS",
     title: "NOW WRECKING 2011 volkswagen amarok 4x4 ",
     fits: "Most Part Still Available we ship parts all over Australia",
@@ -146,6 +163,8 @@ const INVENTORY = [
     cat: "engine",
     condition: "",
     img: "111.png",
+    id: 4,
+    photos: ["111.png", "111.png", "111.png", "111.png"], // TODO: replace with real front/rear/side/interior photos
     catLabel: "ALL BODY PARTS",
     title: "NOW WRECKING 2014 kia cerato auto ",
     fits: "Most Part Still Available we ship parts all over Australia",
@@ -153,19 +172,11 @@ const INVENTORY = [
     stock: "code #4SS",
   },
   {
-    cat: "engine",
-    condition: "",
-    img: "1.png",
-    catLabel: "ALL BODY PARTS",
-    title: "NOW WRECKING 2021 SUZUKI",
-    fits: "Most Part Still Available we ship parts all over Australia",
-    price: "",
-    stock: "code #26U",
-  },
-  {
     cat: "body",
     condition: "",
     img: "2.png",
+    id: 5,
+    photos: ["2.png", "2.png", "2.png", "2.png"], // TODO: replace with real front/rear/side/interior photos
     catLabel: "ALL BODY PARTS",
     title: "NOW WRECKING 2011 TOYOTA PRADO 150 Series 4X4",
     fits: "Most Part Still Available we ship parts all over Australia",
@@ -176,6 +187,8 @@ const INVENTORY = [
     cat: "electrical",
     condition: "",
     img: "3.png",
+    id: 6,
+    photos: ["3.png", "3.png", "3.png", "3.png"], // TODO: replace with real front/rear/side/interior photos
     catLabel: "ALL BODY PARTS",
     title: "WRECKING 2015 HYUNDAI I    30",
     fits: "Most Part Still Available we ship parts all over Australia",
@@ -186,6 +199,8 @@ const INVENTORY = [
     cat: "engine",
     condition: "",
     img: "4.png",
+    id: 7,
+    photos: ["4.png", "4.png", "4.png", "4.png"], // TODO: replace with real front/rear/side/interior photos
     catLabel: "ALL BODY PARTS",
     title: "Now wrecking 2011 mazda3 hatchback auto",
     fits: "Most Part Still Available we ship parts all over Australia",
@@ -196,6 +211,8 @@ const INVENTORY = [
     cat: "interior",
     condition: "",
     img: "5.png",
+    id: 8,
+    photos: ["5.png", "5.png", "5.png", "5.png"], // TODO: replace with real front/rear/side/interior photos
     catLabel: "ALL BODY PARTS",
     title: "wrecking 2018 honda fk7 civic hatchback auto",
     fits: "Most Part Still Available we ship parts all over Australia",
@@ -206,6 +223,8 @@ const INVENTORY = [
     cat: "body",
     condition: "",
     img: "6.png",
+    id: 9,
+    photos: ["6.png", "6.png", "6.png", "6.png"], // TODO: replace with real front/rear/side/interior photos
     catLabel: "ALL BODY PARTS",
     title: "wrecking 2019 audi a3 tfsi auto",
     fits: "Most Part Still Available we ship parts all over Australia",
@@ -216,6 +235,8 @@ const INVENTORY = [
     cat: "electrical",
     condition: "",
     img: "7.png",
+    id: 10,
+    photos: ["7.png", "7.png", "7.png", "7.png"], // TODO: replace with real front/rear/side/interior photos
     catLabel: "ALL BODY PARTS",
     title: "Now wrecking 2012 rnge rover evogue",
     fits: "Most Part Still Available we ship parts all over Australia",
@@ -226,6 +247,8 @@ const INVENTORY = [
     cat: "interior",
     condition: "",
     img: "8.png",
+    id: 11,
+    photos: ["8.png", "8.png", "8.png", "8.png"], // TODO: replace with real front/rear/side/interior photos
     catLabel: "ALL BODY PARTS",
     title: "Now wrecking 2011 toyota corolla",
     fits: "Most Part Still Available we ship parts all over Australia",
@@ -236,6 +259,8 @@ const INVENTORY = [
     cat: "engine",
     condition: "",
     img: "9.png",
+    id: 12,
+    photos: ["9.png", "9.png", "9.png", "9.png"], // TODO: replace with real front/rear/side/interior photos
     catLabel: "ALL BODY PARTS",
     title: "NOW WRECKING 2010 TOYOTA RAV4 AUTO",
     fits: "Most Part Still Available we ship parts all over Australia",
@@ -246,6 +271,8 @@ const INVENTORY = [
     cat: "electrical",
     condition: "",
     img: "10.png",
+    id: 13,
+    photos: ["10.png", "10.png", "10.png", "10.png"], // TODO: replace with real front/rear/side/interior photos
     catLabel: "ALL BODY PARTS",
     title: "Now wrecking 2014 nissan qashqi ",
     fits: "Most Part Still Available we ship parts all over Australia",
@@ -256,6 +283,8 @@ const INVENTORY = [
     cat: "body",
     condition: "",
     img: "11.png",
+    id: 14,
+    photos: ["11.png", "11.png", "11.png", "11.png"], // TODO: replace with real front/rear/side/interior photos
     catLabel: "ALL BODY PARTS",
     title: "wrecking 2007 mitsubishi pajero",
     fits: "Most Part Still Available we ship parts all over Australia",
@@ -266,6 +295,8 @@ const INVENTORY = [
     cat: "interior",
     condition: "",
     img: "12.png",
+    id: 15,
+    photos: ["12.png", "12.png", "12.png", "12.png"], // TODO: replace with real front/rear/side/interior photos
     catLabel: "ALL BODY PARTS",
     title: "Now wrecking 2020 haval h2",
     fits: "Most Part Still Available we ship parts all over Australia",
@@ -276,6 +307,8 @@ const INVENTORY = [
     cat: "engine",
     condition: "",
     img: "13.png",
+    id: 16,
+    photos: ["13.png", "13.png", "13.png", "13.png"], // TODO: replace with real front/rear/side/interior photos
     catLabel: "ALL BODY PARTS",
     title: "wrecking 2004 toyota estima",
     fits: "Most Part Still Available we ship parts all over Australia",
@@ -286,6 +319,8 @@ const INVENTORY = [
     cat: "electrical",
     condition: "",
     img: "14.png",
+    id: 17,
+    photos: ["14.png", "14.png", "14.png", "14.png"], // TODO: replace with real front/rear/side/interior photos
     catLabel: "Electrical · Cluster",
     title: "wrecking 2015 volkswagen polo tsi",
     fits: "Most Part Still Available we ship parts all over Australia",

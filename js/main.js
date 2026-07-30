@@ -224,13 +224,18 @@ function renderInventory() {
   const grid = document.getElementById("invGrid");
   if (!grid) return;
 
-  grid.innerHTML = INVENTORY.map(
-    (item) => `
+  grid.innerHTML = INVENTORY.map((item, index) => {
+    const photoCount = Array.isArray(item.photos) && item.photos.length
+      ? item.photos.length
+      : 1;
+    const detailId = item.id !== undefined ? item.id : index + 1;
+    return `
     <div class="inv-card" data-cat="${item.cat}" data-search="${(item.title + " " + item.catLabel + " " + item.fits).toLowerCase()}">
-      <div class="inv-media">
+      <a class="inv-media" href="car-detail.html?id=${detailId}" aria-label="View all photos of ${item.title}">
         <img src="${item.img}" alt="${item.title}" loading="lazy">
         <span class="inv-condition">${item.condition}</span>
-      </div>
+        <span class="inv-photo-count"><i class="fa-solid fa-camera"></i> ${photoCount}</span>
+      </a>
       <div class="inv-body">
         <span class="cat">${item.catLabel}</span>
         <h3>${item.title}</h3>
@@ -239,9 +244,12 @@ function renderInventory() {
           <span class="price">${item.price}</span>
           <button class="mini-btn" type="button">${item.stock}</button>
         </div>
+        <a class="inv-details-btn" href="car-detail.html?id=${detailId}">
+          <i class="fa-solid fa-images"></i> More Details &amp; Photos
+        </a>
       </div>
-    </div>`,
-  ).join("");
+    </div>`;
+  }).join("");
 
   applyInventoryView();
 }
