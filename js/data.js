@@ -163,7 +163,7 @@ const INVENTORY = [
     cat: "engine",
     condition: "",
     img: "new24.jpeg",
-    id: 4,
+    id: 3,
     photos: ["new24.jpeg", "new25.jpeg", "new26.jpeg", "new27.jpeg","new28.jpeg", "new29.jpeg", "new30.jpeg", "new31.jpeg","new32.jpeg",], // TODO: replace with real front/rear/side/interior photos
     catLabel: "ALL BODY PARTS",
     title: "NOW WRECKING 2014 kia cerato auto ",
@@ -171,24 +171,36 @@ const INVENTORY = [
     price: "",
     stock: "code #4SS",
   },
-  // {
-  //   cat: "body",
-  //   condition: "",
-  //   img: "",
-  //   id: 5,
-  //   photos: [], // TODO: replace with real front/rear/side/interior photos
-  //   catLabel: "ALL BODY PARTS",
-  //   title: "NOW WRECKING 2011 TOYOTA PRADO 150 Series 4X4",
-  //   fits: "Most Part Still Available we ship parts all over Australia",
-  //   price: "",
-  //   stock: "code #040",
-  // },
+    {
+    cat: "",
+    condition: "",
+    img: "new33.jpeg",
+    id: 4,
+    photos: ["new34.jpeg", "new35.jpeg", "new36.jpeg", "new37.jpeg","new38.jpeg", "new39.jpeg", "new40.jpeg", "new41.jpeg","new42.jpeg","new43.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKING 2021 SUZUKI JIMNY ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    price: "",
+    stock: "code #26U",
+  },
+  {
+    cat: "body",
+    condition: "",
+    img: "new44.jpeg",
+    id: 5,
+    photos: ["new45.jpeg", "new46.jpeg", "new47.jpeg", "new48.jpeg","new49.jpeg", "new50.jpeg", "new51.jpeg", "new52.jpeg",], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKING 2011 TOYOTA PRADO 150 Series 4X4",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    price: "",
+    stock: "code #040",
+  },
   {
     cat: "electrical",
     condition: "",
-    img: "3.png",
+    img: "new60.jpeg",
     id: 6,
-    photos: ["3.png", "3.png", "3.png", "3.png"], // TODO: replace with real front/rear/side/interior photos
+    photos: ["new60.jpeg", "new61.jpeg", "new62.jpeg", "new63.jpeg", "new64.jpeg","new65.jpeg",], // TODO: replace with real front/rear/side/interior photos
     catLabel: "ALL BODY PARTS",
     title: "WRECKING 2015 HYUNDAI I    30",
     fits: "Most Part Still Available we ship parts all over Australia",
@@ -199,7 +211,7 @@ const INVENTORY = [
     cat: "engine",
     condition: "",
     img: "4.png",
-    id: 7,
+    id: 6,
     photos: ["4.png", "4.png", "4.png", "4.png"], // TODO: replace with real front/rear/side/interior photos
     catLabel: "ALL BODY PARTS",
     title: "Now wrecking 2011 mazda3 hatchback auto",
