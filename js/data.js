@@ -228,18 +228,18 @@ const INVENTORY = [
     stock: " Paint code #P6W",
   },
 
-  //  {
-  //   cat: "body",
-  //   condition: "",
-  //   img: "new240.jpeg",
-  //   id: 25,
-  //   photos: ["new240.jpeg", "new241.jpeg", "new242.jpeg", "new243.jpeg","new244.jpeg", "new245.jpeg", "new246.jpeg", "new247.jpeg","new248.jpeg","new249.jpeg"], // TODO: replace with real front/rear/side/interior photos
-  //   catLabel: "ALL BODY PARTS",
-  //   title: "now wrecking 2018 hyundai accent ",
-  //   fits: "Most Part Still Available we ship parts all over Australia",
-  //   price: "",
-  //   stock: " Paint code #P6W",
-  // },
+   {
+    cat: "body",
+    condition: "",
+    img: "new300.jpeg",
+    id: 31,
+    photos: ["new300.jpeg", "new301.jpeg", "new302.jpeg", "new303.jpeg","new304.jpeg", "new305.jpeg", "new306.jpeg", "new307.jpeg","new308.jpeg","new309.jpeg","new310.jpeg","new311.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "now wrecking 2014 nissan qashqi ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    price: "",
+    stock: " Paint code #41V",
+  },
 
 
 
@@ -254,6 +254,19 @@ const INVENTORY = [
     fits: "Most Part Still Available we ship parts all over Australia",
     price: "",
     stock: "Paint code #N/A",
+  },
+
+    {
+    cat: "engine",
+    condition: "",
+    img: "new340.jpeg",
+    id: 32,
+    photos: ["new340.jpeg", "new341.jpeg", "new342.jpeg", "new343.jpeg","new344.jpeg", "new345.jpeg", "new346.jpeg","new347.jpeg", "new348.jpeg", "new349.jpeg", "new350.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKING 2013 TOYOTA CAMRY ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    price: "",
+    stock: "Paint code #061",
   },
 
      {
@@ -283,6 +296,19 @@ const INVENTORY = [
     price: "",
     stock: "code #N/A",
   },
+    {
+    cat: "engine",
+    condition: "",
+    img: "new351.jpeg",
+    id: 33,
+    photos: ["new351.jpeg", "new352.jpeg", "new353.jpeg", "new354.jpeg","new355.jpeg", "new356.jpeg", "new357.jpeg","new358.jpeg", "new359.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKING 2020 VOLKSWAGEN T-CROSS ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    price: "",
+    stock: "Paint code #N/A",
+  },
+
    {
     cat: "body",
     condition: "",
