@@ -228,6 +228,21 @@ const INVENTORY = [
     stock: " Paint code #P6W",
   },
 
+  //  {
+  //   cat: "body",
+  //   condition: "",
+  //   img: "new240.jpeg",
+  //   id: 25,
+  //   photos: ["new240.jpeg", "new241.jpeg", "new242.jpeg", "new243.jpeg","new244.jpeg", "new245.jpeg", "new246.jpeg", "new247.jpeg","new248.jpeg","new249.jpeg"], // TODO: replace with real front/rear/side/interior photos
+  //   catLabel: "ALL BODY PARTS",
+  //   title: "now wrecking 2018 hyundai accent ",
+  //   fits: "Most Part Still Available we ship parts all over Australia",
+  //   price: "",
+  //   stock: " Paint code #P6W",
+  // },
+
+
+
      {
     cat: "engine",
     condition: "",
@@ -245,7 +260,7 @@ const INVENTORY = [
     cat: "engine",
     condition: "",
     img: "new270.jpeg",
-    id: 27,
+    id: 29,
     photos: ["new270.jpeg", "new271.jpeg", "new272.jpeg", "new273.jpeg","new274.jpeg", "new275.jpeg", "new276.jpeg","new277.jpeg", "new278.jpeg", "new279.jpeg"], // TODO: replace with real front/rear/side/interior photos
     catLabel: "ALL BODY PARTS",
     title: "NOW WRECKING 2013 hyundai i  20 auto",
@@ -286,7 +301,7 @@ const INVENTORY = [
     cat: "engine",
     condition: "",
     img: "new250.jpeg",
-    id: 26,
+    id: 30,
     photos: ["new250.jpeg", "new251.jpeg", "new252.jpeg", "new253.jpeg","new254.jpeg", "new255.jpeg", "new256.jpeg", "new257.jpeg","new258.jpeg", "new259.jpeg"], // TODO: replace with real front/rear/side/interior photos
     catLabel: "ALL BODY PARTS",
     title: "NOW WRECKING 2015 suzuki apv auto ",
