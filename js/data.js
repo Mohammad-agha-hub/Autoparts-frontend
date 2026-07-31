@@ -121,6 +121,33 @@ const SERVICES = [
 
 // ---- Live inventory cards ----
 const INVENTORY = [
+
+ {
+    cat: "engine",
+    condition: "",
+    img: "new400.jpeg",
+    id: 27,
+    photos: ["new400.jpeg", "new401.jpeg", "new402.jpeg", "new403.jpeg","new404.jpeg", "new405.jpeg", "new406.jpeg", "new407.jpeg","new408.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKing 2016 mazda cx-5  ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    price: "",
+    stock: "Paint code #41V",
+  },
+
+  {
+    cat: "engine",
+    condition: "",
+    img: "new410.jpeg",
+    id: 28,
+    photos: ["new410.jpeg", "new411.jpeg", "new412.jpeg", "new413.jpeg","new414.jpeg", "new415.jpeg", "new416.jpeg", "new417.jpeg","new418.jpeg","new419.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKing 2021 haval h3 1.5 l turbo ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    price: "",
+    stock: "Paint code #N/A",
+  },
+
     {
     cat: "engine",
     condition: "",
