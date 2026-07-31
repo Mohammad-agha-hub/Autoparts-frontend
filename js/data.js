@@ -322,6 +322,70 @@ const INVENTORY = [
     stock: "paint code #YAC",
   },
 
+     {
+    cat: "engine",
+    condition: "",
+    img: "new360.jpeg",
+    id: 34,
+    photos: ["new360.jpeg", "new361.jpeg", "new362.jpeg", "new363.jpeg","new364.jpeg", "new365.jpeg", "new366.jpeg","new367.jpeg", "new368.jpeg","new369.jpeg", "new370.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECking 2012 toyota corolla sedan auto ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    price: "",
+    stock: "Paint code #040",
+  },
+
+     {
+    cat: "engine",
+    condition: "",
+    img: "new371.jpeg",
+    id: 35,
+    photos: ["new371.jpeg", "new372.jpeg", "new373.jpeg", "new374.jpeg","new375.jpeg", "new376.jpeg", "new378.jpeg","new379.jpeg", "new380.jpeg","new381.jpeg", "new382.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECking 2015 toyota rav4 auto  ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    price: "",
+    stock: "Paint code #1f7",
+  },
+
+  {
+    cat: "engine",
+    condition: "",
+    img: "new383.jpeg",
+    id: 36,
+    photos: ["new383.jpeg", "new384.jpeg", "new385.jpeg", "new386.jpeg","new387.jpeg", "new388.jpeg", "new389.jpeg","new390.jpeg", "new391.jpeg","new392.jpeg",], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECking toyota corolla hatch 2015  ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    price: "",
+    stock: "Paint code #3R3",
+  },
+
+   {
+    cat: "engine",
+    condition: "",
+    img: "new290.jpeg",
+    id: 37,
+    photos: ["new290.jpeg", "new291.jpeg", "new292.jpeg", "new293.jpeg","new294.jpeg", "new295.jpeg", "new296.jpeg","new297.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECking 2023 MG MG3 AUTO  ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    price: "",
+    stock: "Paint code #N/A",
+  },
+    {
+    cat: "body",
+    condition: "",
+    img: "new323.jpeg",
+    id: 38,
+    photos: ["new323.jpeg", "new324.jpeg", "new325.jpeg", "new326.jpeg","new327.jpeg", "new328.jpeg", "new329.jpeg","new330.jpeg","new331.jpeg","new332.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECking 2018 SUZUKI IGNIS  ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    price: "",
+    stock: "Paint code #ZWD",
+  },
+
 
    {
     cat: "engine",
