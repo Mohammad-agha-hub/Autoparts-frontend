@@ -38,8 +38,8 @@ const HERO_SLIDES = [
 const SERVICES = [
   {
     code: "SVC-01",
-    img: "car-engine-25780404.webp",
-    photos: ["car-engine-25780404.webp", "car-engine-25780404.webp"], // TODO: add more real engine photos
+    img: "engine.png",
+    photos: ["engine.png", "engine.png"], // TODO: add more real engine photos
     title: "Engines",
     desc: "Quality tested engines.",
     // description: "Every engine we sell is pulled from a low-mileage donor vehicle, compression-tested and condition-graded before it goes on the shelf. We check fitment against your VIN or plate before dispatch, and every engine carries a minimum 90-day warranty (extended to 6 months when installed by a licensed mechanic). Available for pickup from the yard or nationwide palletised freight.",
@@ -78,8 +78,8 @@ const SERVICES = [
   },
   {
     code: "SVC-06",
-    img: "mirror.webp",
-    photos: ["mirror.webp", "mirror.webp"], // TODO: add more real mirror photos
+    img: "mirror1.webp",
+    photos: ["mirror1.webp", "mirror1.webp"], // TODO: add more real mirror photos
     title: "Mirrors",
     desc: "Electric mirrors.",
     // description: "Power-fold and manual side mirrors, tested for electric adjustment, heating elements and indicator function where fitted. Available painted to match or in primer/unpainted trim.",
