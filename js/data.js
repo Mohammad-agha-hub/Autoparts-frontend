@@ -121,6 +121,18 @@ const SERVICES = [
 
 // ---- Live inventory cards ----
 const INVENTORY = [
+    {
+    cat: "engine",
+    condition: "",
+    img: "new452.jpeg",
+    id: 42,
+    photos: ["new452.jpeg", "new453.jpeg", "new454.jpeg", "new455.jpeg","new456.jpeg", "new457.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKing 2012 honda accord euro  ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    price: "",
+    stock: "Paint code #N/A",
+  },
   {
     cat: "engine",
     condition: "",
