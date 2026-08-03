@@ -121,6 +121,45 @@ const SERVICES = [
 
 // ---- Live inventory cards ----
 const INVENTORY = [
+  {
+    cat: "engine",
+    condition: "",
+    img: "new4201.jpeg",
+    id: 39,
+    photos: ["new4201.jpeg", "new420.jpeg", "new421.jpeg", "new422.jpeg","new423.jpeg", "new425.jpeg", "new426.jpeg", "new427.jpeg","new428.jpeg","new429.jpeg","new430.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKing 2019 Mg ZS  ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    price: "",
+    stock: "Paint code #N/A",
+  },
+   {
+    cat: "body",
+    condition: "",
+    img: "new441.jpeg",
+    id: 41,
+    photos: ["new441.jpeg", "new442.jpeg", "new443.jpeg", "new444.jpeg","new445.jpeg", "new446.jpeg", "new447.jpeg", "new448.jpeg","new449.jpeg","new450.jpeg","new451.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKing 2013 Hyundai i 30  ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    price: "",
+    stock: "Paint code #YAC",
+  },
+
+   {
+    cat: "body",
+    condition: "",
+    img: "new431.jpeg",
+    id: 40,
+    photos: ["new431.jpeg", "new432.jpeg", "new433.jpeg", "new434.jpeg","new435.jpeg", "new436.jpeg", "new437.jpeg", "new438.jpeg","new439.jpeg","new440.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKing 2025 MG MG3 hybrid  ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    price: "",
+    stock: "Paint code #5LRL",
+  },
+ 
+
 
  {
     cat: "engine",
