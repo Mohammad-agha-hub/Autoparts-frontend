@@ -50,7 +50,7 @@ const SERVICES = [
     photos: ["tran.webp", "tran.webp"], // TODO: add more real transmission photos
     title: "Transmission",
     desc: "Manual & Automatic.",
-    description: "Manual and automatic transmissions and transfer cases, tested for smooth shifting and fluid condition before sale. We cross-check interchange numbers so the unit matches your exact model and drivetrain, and back every transmission with a written warranty.",
+    // description: "Manual and automatic transmissions and transfer cases, tested for smooth shifting and fluid condition before sale. We cross-check interchange numbers so the unit matches your exact model and drivetrain, and back every transmission with a written warranty.",
   },
   {
     code: "SVC-03",
@@ -58,7 +58,7 @@ const SERVICES = [
     photos: ["doors.jpg", "doors.jpg"], // TODO: add more real door photos
     title: "Doors",
     desc: "OEM body part.",
-    description: "Genuine OEM doors in a range of colours and trims, complete with glass, trim clips and mechanisms unless stated otherwise. We can supply a colour-matched panel or the closest available match, ready for straight bolt-on fitment.",
+    // description: "Genuine OEM doors in a range of colours and trims, complete with glass, trim clips and mechanisms unless stated otherwise. We can supply a colour-matched panel or the closest available match, ready for straight bolt-on fitment.",
   },
   {
     code: "SVC-04",
@@ -66,7 +66,7 @@ const SERVICES = [
     photos: ["headligh.avif", "headligh.avif"], // TODO: add more real headlight photos
     title: "Headlights",
     desc: "Original headlights.",
-    description: "Original manufacturer headlight and taillight assemblies, tested for clarity and working electronics before sale. We check bulb type, wiring loom and adaptive-lighting compatibility against your VIN so it plugs straight in.",
+    // description: "Original manufacturer headlight and taillight assemblies, tested for clarity and working electronics before sale. We check bulb type, wiring loom and adaptive-lighting compatibility against your VIN so it plugs straight in.",
   },
   {
     code: "SVC-05",
@@ -74,7 +74,7 @@ const SERVICES = [
     photos: ["pumpe.jfif", "pumpe.jfif"], // TODO: add more real bumper photos
     title: "Bumpers",
     desc: "Front & Rear bumpers.",
-    description: "Front and rear bumper bars and covers, inspected for cracks and mounting-point condition. Sold with or without fog light housings and sensor cut-outs as fitted to the donor vehicle — let us know your trim level for the closest match.",
+    // description: "Front and rear bumper bars and covers, inspected for cracks and mounting-point condition. Sold with or without fog light housings and sensor cut-outs as fitted to the donor vehicle — let us know your trim level for the closest match.",
   },
   {
     code: "SVC-06",
@@ -82,7 +82,7 @@ const SERVICES = [
     photos: ["mirror.webp", "mirror.webp"], // TODO: add more real mirror photos
     title: "Mirrors",
     desc: "Electric mirrors.",
-    description: "Power-fold and manual side mirrors, tested for electric adjustment, heating elements and indicator function where fitted. Available painted to match or in primer/unpainted trim.",
+    // description: "Power-fold and manual side mirrors, tested for electric adjustment, heating elements and indicator function where fitted. Available painted to match or in primer/unpainted trim.",
   },
   {
     code: "SVC-07",
@@ -90,7 +90,7 @@ const SERVICES = [
     photos: ["suspension.jpg", "suspension.jpg"], // TODO: add more real suspension photos
     title: "Suspension",
     desc: "High quality parts.",
-    description: "Struts, shocks, control arms and suspension components pulled from low-kilometre donors and inspected for wear, leaks and bent components. We match by chassis code so ride height and handling stay factory-correct.",
+    // description: "Struts, shocks, control arms and suspension components pulled from low-kilometre donors and inspected for wear, leaks and bent components. We match by chassis code so ride height and handling stay factory-correct.",
   },
   // {
   //   code: "SVC-08",
@@ -122,7 +122,7 @@ const SERVICES = [
     photos: ["steering.jpg", "steering.jpg"], // TODO: add more real steering photos
     title: "Steering",
     desc: "",
-    description: "Steering racks, columns and power-steering pumps tested for leaks, play and correct assist operation before sale, matched to your exact model and steering configuration.",
+    // description: "Steering racks, columns and power-steering pumps tested for leaks, play and correct assist operation before sale, matched to your exact model and steering configuration.",
   },
   {
     code: "SVC-13",
@@ -130,7 +130,7 @@ const SERVICES = [
     photos: ["wheel.jfif", "wheel.jfif"], // TODO: add more real wheel photos
     title: "Wheel & Tyre",
     desc: "",
-    description: "Factory alloy and steel wheels with usable tyre tread, checked for cracks, bends and correct bolt pattern/offset for your vehicle. Sold individually or as a matching set.",
+    // description: "Factory alloy and steel wheels with usable tyre tread, checked for cracks, bends and correct bolt pattern/offset for your vehicle. Sold individually or as a matching set.",
   },
   // { code: "SVC-14", img: "tyre.jfif", title: "Tyres", desc: "" },
   {
@@ -139,7 +139,7 @@ const SERVICES = [
     photos: ["battry.webp", "battry.webp"], // TODO: add more real battery photos
     title: "Battery",
     desc: "",
-    description: "Load-tested batteries and 12V auxiliary units, checked for cold-cranking amps and charge retention before sale, with a short warranty against early failure.",
+    // description: "Load-tested batteries and 12V auxiliary units, checked for cold-cranking amps and charge retention before sale, with a short warranty against early failure.",
   },
   {
     code: "SVC-16",
@@ -147,7 +147,7 @@ const SERVICES = [
     photos: ["abs.jfif", "abs.jfif"], // TODO: add more real ABS module photos
     title: "ABS Module",
     desc: "",
-    description: "ABS pumps and control modules tested on the bench where possible and checked against your VIN for correct part-number match, since ABS units are highly model-specific.",
+    // description: "ABS pumps and control modules tested on the bench where possible and checked against your VIN for correct part-number match, since ABS units are highly model-specific.",
   },
 ];
 
