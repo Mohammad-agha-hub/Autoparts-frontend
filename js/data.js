@@ -42,7 +42,7 @@ const SERVICES = [
     photos: ["car-engine-25780404.webp", "car-engine-25780404.webp"], // TODO: add more real engine photos
     title: "Engines",
     desc: "Quality tested engines.",
-    description: "Every engine we sell is pulled from a low-mileage donor vehicle, compression-tested and condition-graded before it goes on the shelf. We check fitment against your VIN or plate before dispatch, and every engine carries a minimum 90-day warranty (extended to 6 months when installed by a licensed mechanic). Available for pickup from the yard or nationwide palletised freight.",
+    // description: "Every engine we sell is pulled from a low-mileage donor vehicle, compression-tested and condition-graded before it goes on the shelf. We check fitment against your VIN or plate before dispatch, and every engine carries a minimum 90-day warranty (extended to 6 months when installed by a licensed mechanic). Available for pickup from the yard or nationwide palletised freight.",
   },
   {
     code: "SVC-02",
