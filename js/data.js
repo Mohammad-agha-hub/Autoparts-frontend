@@ -126,11 +126,11 @@ const SERVICES = [
   },
   {
     code: "SVC-13",
-    img: "wheel.jfif",
-    photos: ["wheel.jfif", "wheel.jfif"], // TODO: add more real wheel photos
+    img: "tyre1.jpeg",
+    photos: ["tyre1.jpeg", "tyre2.jpeg","tyre3.jpeg", "tyre4.jpeg","tyre5.jpeg", "tyre6.jpeg","tyre7.jpeg", "tyre8.jpeg","tyre9.jpeg", "tyre10.jpeg"], // TODO: add more real wheel photos
     title: "Wheel & Tyre",
     desc: "",
-    // description: "Factory alloy and steel wheels with usable tyre tread, checked for cracks, bends and correct bolt pattern/offset for your vehicle. Sold individually or as a matching set.",
+    description: "Factory alloy and steel wheels with usable tyre tread, checked for cracks, bends and correct bolt pattern/offset for your vehicle. Sold individually or as a matching set.",
   },
   // { code: "SVC-14", img: "tyre.jfif", title: "Tyres", desc: "" },
   {
