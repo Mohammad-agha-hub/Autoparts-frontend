@@ -333,6 +333,9 @@
     box-shadow:0 15px 35px rgba(0,0,0,.35);
     transition: transform .3s, box-shadow .3s;
     background:var(--steel-2);
+    display:block;
+    text-decoration:none;
+    color:inherit;
   }
   .card:hover{transform:translateY(-4px);box-shadow:0 20px 40px rgba(0,0,0,.45);}
 

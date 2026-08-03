@@ -161,6 +161,15 @@ function renderVehicle(vehicle) {
           <a href="tel:${BUSINESS.phoneTel}" class="btn btn-outline">Call ${BUSINESS.phoneDisplay}</a>
         </div>
 
+        ${
+          vehicle.description
+            ? `<div class="detail-description">
+                <h3>Description</h3>
+                <p>${vehicle.description}</p>
+              </div>`
+            : ""
+        }
+
         <div class="detail-note">
           <i class="fa-solid fa-circle-info"></i>
           <span>Parts and panels are pulled to order — call or WhatsApp us with this stock code and we'll confirm availability and price on the spot.</span>

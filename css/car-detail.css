@@ -68,6 +68,14 @@
 }
 .detail-note i{color:var(--rust);margin-top:2px;}
 
+/* ---- Description block ---- */
+.detail-description{margin-bottom:24px;}
+.detail-description h3{
+  font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:16px;
+  letter-spacing:.03em;color:var(--offwhite);margin-bottom:10px;
+}
+.detail-description p{font-size:14px;line-height:1.7;color:var(--gray-mid);}
+
 /* ---- Lightbox ---- */
 .lightbox-overlay{
   position:fixed;inset:0;background:rgba(10,10,10,.92);z-index:999;

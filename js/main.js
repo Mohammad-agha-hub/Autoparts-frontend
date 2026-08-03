@@ -200,20 +200,22 @@ function renderServices() {
   const wrapper = document.getElementById("servicesWrapper");
   if (!wrapper) return;
 
-  wrapper.innerHTML = SERVICES.map(
-    (s) => `
+  wrapper.innerHTML = SERVICES.map((s) => {
+    const photoCount = Array.isArray(s.photos) && s.photos.length ? s.photos.length : 1;
+    return `
     <div class="swiper-slide">
-      <div class="card">
+      <a class="card" href="service-detail.html?id=${s.code}" aria-label="View ${s.title} photos and details">
         <img src="${s.img}" alt="${s.title}" loading="lazy">
         <div class="overlay"></div>
+        <span class="inv-photo-count"><i class="fa-solid fa-camera"></i> ${photoCount}</span>
         <div class="content">
           <span>${s.code}</span>
           <h3>${s.title}</h3>
           ${s.desc ? `<p>${s.desc}</p>` : ""}
         </div>
-      </div>
-    </div>`,
-  ).join("");
+      </a>
+    </div>`;
+  }).join("");
 }
 
 /* ---------------- Inventory (filter + keyword search + "show more" pagination) ---------------- */
