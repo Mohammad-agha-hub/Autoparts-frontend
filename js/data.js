@@ -153,6 +153,19 @@ const SERVICES = [
 
 // ---- Live inventory cards ----
 const INVENTORY = [
+     {
+    cat: "engine",
+    condition: "",
+    img: "new460.jpeg",
+    id: 43,
+    photos: ["new460.jpeg", "new461.jpeg", "new462.jpeg", "new463.jpeg","new464.jpeg", "new465.jpeg", "new466.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKing 2020 MG ZST  ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #N/A",
+  },
     {
     cat: "engine",
     condition: "",
@@ -186,7 +199,7 @@ const INVENTORY = [
     id: 41,
     photos: ["new441.jpeg", "new442.jpeg", "new443.jpeg", "new444.jpeg","new445.jpeg", "new446.jpeg", "new447.jpeg", "new448.jpeg","new449.jpeg","new450.jpeg","new451.jpeg"], // TODO: replace with real front/rear/side/interior photos
     catLabel: "ALL BODY PARTS",
-    title: "NOW WRECKing 2013 Hyundai i 30  ",
+    title: "NOW WRECKing 2014 Hyundai i 30  ",
     fits: "Most Part Still Available we ship parts all over Australia",
     description: "Wrecking the 2013 Hyundai i 30 for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
     price: "",
