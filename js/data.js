@@ -156,6 +156,32 @@ const INVENTORY = [
      {
     cat: "engine",
     condition: "",
+    img: "new470.jpeg",
+    id: 44,
+    photos: ["new470.jpeg", "new471.jpeg", "new472.jpeg", "new473.jpeg","new474.jpeg", "new475.jpeg", "new476.jpeg", "new477.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKing 2015 jeep cherokee  ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #N/A",
+  },
+      {
+    cat: "engine",
+    condition: "",
+    img: "new478.jpeg",
+    id: 45,
+    photos: ["new478.jpeg", "new479.jpeg", "new480.jpeg", "new481.jpeg","new482.jpeg", "new483.jpeg", "new484.jpeg", "new485.jpeg", "new486.jpeg", "new487.jpeg", "new488.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKing 2017 mercedes cla 250 ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #N/A",
+  },
+     {
+    cat: "engine",
+    condition: "",
     img: "new460.jpeg",
     id: 43,
     photos: ["new460.jpeg", "new461.jpeg", "new462.jpeg", "new463.jpeg","new464.jpeg", "new465.jpeg", "new466.jpeg"], // TODO: replace with real front/rear/side/interior photos
