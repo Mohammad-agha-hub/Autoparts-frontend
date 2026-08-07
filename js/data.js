@@ -153,6 +153,22 @@ const SERVICES = [
 
 // ---- Live inventory cards ----
 const INVENTORY = [
+  {
+    cat: "engine",
+    condition: "",
+    img: "new490.jpeg",
+    id: 46,
+    photos: ["new490.jpeg", "new491.jpeg", "new492.jpeg", "new493.jpeg","new494.jpeg", "new495.jpeg", "new496.jpeg", "new497.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKing 2016 toyota fortuner auto",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #N/A",
+  },
+
+
+  
      {
     cat: "engine",
     condition: "",
